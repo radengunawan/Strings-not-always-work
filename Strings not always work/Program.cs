@@ -5,7 +5,7 @@ namespace Strings_not_always_work
 {
     class Program
     {
-        enum Suits { Diamonds, Clubs, Hearts, Spades, Shelby }
+        enum Suits { Diamonds, Clubs, Hearts, Spades,  }
         
         static void Main(string[] args)
         {
@@ -18,14 +18,32 @@ namespace Strings_not_always_work
                 mySuit
             };
 
-            //string aaa = Suits.Diamonds.ToString();
-            //var bbb = Suits.Diamonds;
+            int enum_length = Enum.GetValues(typeof(Suits)).Length; ;
+            
+            List<Suits> card1 = new List<Suits>();
+            
+            for (int i = 0; i < enum_length; i++)
+            {
+                card1.Add((Suits)i);
+            }
 
+            //Console.WriteLine(card1.Count);
 
-            //int count = Enum.GetValues(typeof(Suits)).Length;
-            var abvc = Suits.Hearts;
+            foreach (var item in card1)
+            {
+                var a = (Suits)item;
+                var b = a.ToString();
+                var c = a.GetType();
+                var d = b.GetType();
 
-            IsItAHeart(abvc);
+                Console.WriteLine(a);
+                Console.WriteLine(b);
+                Console.WriteLine(c);
+                Console.WriteLine(d);
+
+                Console.WriteLine("");
+            }
+            
 
         } //end Main method
 
