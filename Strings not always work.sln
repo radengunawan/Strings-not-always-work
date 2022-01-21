@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings not always work", "Strings not always work\Strings not always work.csproj", "{4D1F3D9F-4126-4E8C-9B7A-B942DD3A1BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1F3D9F-4126-4E8C-9B7A-B942DD3A1BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1F3D9F-4126-4E8C-9B7A-B942DD3A1BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1F3D9F-4126-4E8C-9B7A-B942DD3A1BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1F3D9F-4126-4E8C-9B7A-B942DD3A1BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6065F71-D52C-4414-8E68-28A4D9AAECFA}
+	EndGlobalSection
+EndGlobal
