@@ -15,6 +15,7 @@ namespace Strings_not_always_work
             get { return $"{this.Value} of {this.Suit}"; }
         }
 
+        
 
         //constructor
         public Kartu (string value, string suit)
